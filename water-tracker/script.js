@@ -13,7 +13,7 @@ function getToday(){
            String(d.getDate()).padStart(2,"0")
 }
 
-function undateStreak(){
+function updateStreak(){
     document.getElementById("streak").innerText = "連續達成" + streakDays +"天"
 }
 
